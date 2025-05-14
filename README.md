@@ -72,18 +72,24 @@ TODO / Optional Extras
  here a code to do that:
  node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 
- Add .env file for config here an example
-    NODE_ENV=development
-    APP_PORT=3000
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=
-    DB_NAME=cafe
-    DB_PORT=3306
-    DB_DIALECT=mysql
-    DB_LOGGING=true
-    SESSION_SECRET=99e2a8e9002bfcbcd703592b6cec4007685727387928ba3194f6df04d884c551ff942f641d0d3b9bf0db0af6a69c29832fadb8916a077275f95482b85e9e7b18
+ A### 📁 Add a `.env` file for configuration
 
+Create a `.env` file in the root of your project. Here's an example configuration:
+
+```.env
+NODE_ENV=development
+APP_PORT=3000
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=cafe
+DB_PORT=3306
+DB_DIALECT=mysql
+DB_LOGGING=true
+
+SESSION_SECRET=99e2a8e9002bfcbcd703592b6cec4007685727387928ba3194f6df04d884c551ff942f641d0d3b9bf0db0af6a69c29832fadb8916a077275f95482b85e9e7b18
+```
  Add Makefile for script shortcuts
 
  Add Dockerfile and docker-compose.yml for containerized workflows
