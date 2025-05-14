@@ -72,7 +72,7 @@ Use this for clean and standardized development workflows.
  here a code to do that:
  node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 
- A### 📁 Add a `.env` file for configuration
+ ### 📁 Add a `.env` file for configuration
 
 Create a `.env` file in the root of your project. Here's an example configuration:
 
@@ -91,9 +91,9 @@ DB_LOGGING=true
 SESSION_SECRET=99e2a8e9002bfcbcd703592b6cec4007685727387928ba3194f6df04d884c551ff942f641d0d3b9bf0db0af6a69c29832fadb8916a077275f95482b85e9e7b18
 ```
 
- Add Makefile for script shortcuts
+ ### Add Makefile for script shortcuts
 
- Add Dockerfile and docker-compose.yml for containerized workflows
+ ### Add Dockerfile and docker-compose.yml for containerized workflows
 
- Use mysql2 or ORM (e.g. Sequelize) for DB abstraction
+ ### Use mysql2 or ORM (e.g. Sequelize) for DB abstraction
 
